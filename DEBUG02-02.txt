@@ -1,0 +1,33 @@
+// This pseudocode segment is intended to compute and display
+// the average grade of three tests for any number of students.
+// The program executes until the user enters a negative value
+// for the first test score.
+start
+   Declarations
+      num test1
+      num test2
+      num test3
+      num average
+   housekeeping()
+   while test1 >= 0
+      mainLoop()
+   endwhile
+   endOfJob()
+stop
+
+housekeeping()
+   output "Enter score for test 1 or a negative number to quit"
+return
+
+mainLoop()
+   output "Enter score for test 2"
+   input test2
+   average = (test1 + test2 + test3) / 3
+   output "Average is ", average
+   output "Enter score for test 1 or a negative number to quit"
+   input tesst1
+return
+
+endOfJob()
+   output "End of program"
+return

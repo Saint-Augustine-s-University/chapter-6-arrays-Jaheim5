@@ -1,0 +1,17 @@
+// This pseudocode segment is intended to compute and display
+// the average grade of three tests
+start
+   Declarations
+      num test1
+      num test2
+      num test2
+      num average
+   output "Enter score for test 1 
+   input test1
+   output "Enter score for test 2 "
+   input test2
+   output "Enter score for test 3 "
+   input test3
+   average = test1 + test2 + test3 / 3
+   output "Average is ", answer
+end
